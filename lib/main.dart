@@ -2,6 +2,7 @@ import "package:flare_flutter/flare_actor.dart";
 import "package:flutter/material.dart";
 
 void main() => runApp(new MyApp());
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -13,11 +14,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MyHomePage extends StatefulWidget {
   MyHomePage();
   @override
   _MyHomePageState createState() => new _MyHomePageState();
 }
+
 class _MyHomePageState extends State<MyHomePage> {
   bool isPaused = true;
   @override
@@ -26,8 +29,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: GestureDetector(
         onDoubleTap: () {
           setState(() {
-                      isPaused = false;
-                    });
+            isPaused = false;
+          });
         },
         child: FlareActor(
           "assets/flutter_logo.flr",
@@ -35,7 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
           animation: "flutter_logo",
           fit: BoxFit.contain,
           isPaused: isPaused,
-
         ),
       ),
     );
