@@ -24,7 +24,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   bool isPaused = true;
   // You can change GestureDetector click options.
-  // tray other .flr files
+  // tray other assets/*.flr files
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
