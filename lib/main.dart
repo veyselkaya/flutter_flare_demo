@@ -23,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   bool isPaused = true;
-  // You can change GestureDetector click way...
+  // You can change GestureDetector click options.
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
