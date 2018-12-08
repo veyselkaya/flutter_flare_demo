@@ -1,6 +1,6 @@
 # flutter_flare
 
-A new Flutter project.
+A new Flutter project with Flare
 
 
 1.https://flutter.io/
