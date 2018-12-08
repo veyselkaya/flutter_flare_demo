@@ -7,6 +7,7 @@ A new Flutter project.
 2.https://www.2dimensions.com/
 
 Veysel Kaya
+@veyselkaya
 
 ## Getting Started
 
