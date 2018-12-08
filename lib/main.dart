@@ -28,20 +28,44 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: GestureDetector(
-        onDoubleTap: () {
-          setState(() {
-            isPaused = false;
-          });
-        },
-        child: FlareActor(
-          "assets/flutter_logo.flr",
-          alignment: Alignment.center,
-          animation: "flutter_logo",
-          fit: BoxFit.contain,
-          isPaused: isPaused,
-        ),
+        body: Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: new Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Expanded(
+            child: GestureDetector(
+              onDoubleTap: () {
+                setState(() {
+                  isPaused = false;
+                });
+              },
+              child: FlareActor(
+                "assets/flutter_logo.flr",
+                alignment: Alignment.center,
+                animation: "flutter_logo",
+                fit: BoxFit.contain,
+                isPaused: isPaused,
+              ),
+            ),
+          ),
+          Expanded(
+            child: GestureDetector(
+              onDoubleTap: () {
+                
+              },
+              child: FlareActor(
+                "assets/Animals.flr",
+                alignment: Alignment.center,
+                animation: "Animals",
+                fit: BoxFit.contain,
+                isPaused: isPaused,
+              ),
+            ),
+          ),
+        ],
       ),
-    );
+    ));
   }
 }
