@@ -3,9 +3,9 @@
 A new Flutter project with Flare
 
 
-1.https://flutter.io/
-2.https://www.2dimensions.com/
-3.https://www.2dimensions.com/a/veyselkaya/files/flare/new-file-7/preview
+- https://flutter.io/
+- https://www.2dimensions.com/
+- https://www.2dimensions.com/a/veyselkaya/files/flare/new-file-7/preview
 
 Veysel Kaya
 @veyselkaya
